@@ -20,8 +20,6 @@ li {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-
-  box-shadow: inset 0 0 4px red;
 }
 
 /* Typography */
@@ -75,6 +73,8 @@ body {
   display: flex;
   gap: 24px;
 }
+
+/* Contents > Main */
 .contents .contents-container .contents-main {
   flex-basis: 0;
   flex-grow: 1;
@@ -89,32 +89,31 @@ body {
   flex-basis: 0;
   flex-grow: 1;
 }
-
-.card {
+.contents .contents-container .contents-main .main-list .list-item .card {
   background-color: #222;
   border-radius: 16px;
   overflow: hidden;
   max-width: 320px;
 }
-.card .card-text {
+.contents .contents-container .contents-main .main-list .list-item .card .card-text {
   padding: 20px;
 }
-.card-cover {
+.contents .contents-container .contents-main .main-list .list-item .card .card-cover {
   vertical-align: bottom;
   max-height: 180px;
 }
-.card h2 {
+.contents .contents-container .contents-main .main-list .list-item .card h2 {
   font-weight: bold;
   color: #EBB3BB;
   margin-bottom: 12px;
 }
-.card p {
+.contents .contents-container .contents-main .main-list .list-item .card p {
   font-size: 12px;
   line-height: 1.8;
   color: #999;
   margin-bottom: 40px;
 }
-.card .card-button {
+.contents .contents-container .contents-main .main-list .list-item .card .card-button {
   text-align: center;
   font-size: 12px;
   color: #FF0000;
@@ -128,46 +127,45 @@ body {
   margin: -10px;
 }
 
+/* Contents > Sidebar */
 .contents .contents-container .sidebar {
   width: 168px;
-  /* max-height: 283px; */
 }
-
 .contents .contents-container .sidebar .sidebar-title {
   display: flex;
   gap: 2px;
   margin-bottom: 10px;
 }
-.contents .contents-container .sidebar .sidebar-title h3 {
-  color: #999;
-}
 .contents .contents-container .sidebar .sidebar-title img {
   width: 16px;
 }
-
-.sidebar-list {
+.contents .contents-container .sidebar .sidebar-title h3 {
+  color: #999;
+}
+.contents .contents-container .sidebar .sidebar-list {
   background-color: #111;
   padding: 8px 0 8px 10px;
   border-top: 1px solid #FA8073
 }
-.sidebar-list h4 {
+.contents .contents-container .sidebar .sidebar-list h4 {
   font-size: 14px;
   color: #FA8073; 
   margin-bottom: 20px;
 }
-.sidebar-list ul {
+.contents .contents-container .sidebar .sidebar-list ul {
   padding-left: 9px;
 }
-.sidebar-list li{
+.contents .contents-container .sidebar .sidebar-list li{
   border-bottom: 1px solid #333;
   font-size: 12px;
   color: #999;
   line-height: 2em;
 }
-.sidebar-list li:last-child {
+.contents .contents-container .sidebar .sidebar-list li:last-child {
   border-bottom: none;
 }
 
+/* Footer */
 .footer p {
   font-size: 16px;
   color: #666;
