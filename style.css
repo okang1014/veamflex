@@ -24,6 +24,39 @@ body {
   background-color: #111;
 }
 
+.header .header-container {
+  height: 180px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px
+}
+
+.header .header-container .header-logo{
+  width: 200px;
+  height: 44px;
+}
+
+.header .header-container .header-caption {
+  color: #999;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header .header-container .header-caption::before {
+  content: " ";
+  width: 64px;
+  height: 1px;
+  background-color: #999;
+}
+
+.header .header-container .header-cover {
+  width: 140px;
+  margin-left: auto;
+  margin-top: auto;
+}
+
 .contents {
   background-color: #000;
 }
