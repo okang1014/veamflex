@@ -163,6 +163,7 @@ body {
 }
 .contents .contents-container .sidebar .sidebar-list li:last-child {
   border-bottom: none;
+  margin-bottom: 4px;
 }
 
 /* Footer */
