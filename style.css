@@ -120,7 +120,10 @@ body {
   color: #FF0000;
   letter-spacing: .2em;
   background-color: #111;
-  line-height: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   margin: -10px;
 }
@@ -163,4 +166,12 @@ body {
 }
 .sidebar-list li:last-child {
   border-bottom: none;
+}
+
+.footer p {
+  font-size: 16px;
+  color: #666;
+  height: 77px;
+  display: flex;
+  align-items: center;
 }
